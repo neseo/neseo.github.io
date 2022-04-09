@@ -11,7 +11,7 @@
 <meta property="og:url" content="https://vicni.xyz/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:author" content="Neseo">
+<meta property="article:author" content="neseo">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -71,6 +71,131 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-proxychains" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/04/09/proxychains/" class="article-date">
+  <time class="dt-published" datetime="2022-04-09T05:11:46.000Z" itemprop="datePublished">2022-04-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/04/09/proxychains/">proxychains</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>首先安装proxychains：sudo apt install -y proxychains。</p>
+<p>然后编辑 &#x2F;etc&#x2F;proxychains.conf 文件，在最后的[ProxyList]一节中增加代理设置，例如：</p>
+<p>socks5 127.0.0.1 1080</p>
+<p>接下来，所有希望走代理的命令，前面增加proxychains即可，例如：<br>proxychains lynx <a target="_blank" rel="noopener" href="https://youtube.com/">https://youtube.com</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://vicni.xyz/2022/04/09/proxychains/" data-id="cl1reo18f0003at5c8o3vardr" data-title="proxychains" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Debian-switch-desktop" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/04/09/Debian-switch-desktop/" class="article-date">
+  <time class="dt-published" datetime="2022-04-09T05:11:21.000Z" itemprop="datePublished">2022-04-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/04/09/Debian-switch-desktop/">Debian switch desktop</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>debian10 切换默认桌面命令</p>
+<p>debian10 (安装多桌面)切换默认桌面命令:<br>update-alternatives –config x-session-manager<br>选择 要切换的桌面序号 重启即可</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://vicni.xyz/2022/04/09/Debian-switch-desktop/" data-id="cl1reo17r0000at5c2hhkcmr7" data-title="Debian switch desktop" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Debian-Win10-grub-boot" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/04/09/Debian-Win10-grub-boot/" class="article-date">
+  <time class="dt-published" datetime="2022-04-09T05:10:49.000Z" itemprop="datePublished">2022-04-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/04/09/Debian-Win10-grub-boot/">Debian &amp; Win10 grub boot</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Linux Debian11如何修改Grub2的开机启动顺序</p>
+<p>Windows和Linux双系统，如何修改启动顺序。</p>
+<p>1、进入&#x2F;etc&#x2F;grub.d目录，将该目录下的“30_os-prober”文件改名为“##_os-prober”。##的取值为06～09之间的数字。</p>
+<p>2、执行sudo update-grub。</p>
+<p>注意是加sudo否则找不到该命令.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://vicni.xyz/2022/04/09/Debian-Win10-grub-boot/" data-id="cl1reo1840001at5c9i1wedjh" data-title="Debian &amp; Win10 grub boot" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/04/09/hello-world/" class="article-date">
@@ -110,7 +235,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://vicni.xyz/2022/04/09/hello-world/" data-id="cl1rdsesj00006a5camfp5b06" data-title="Hello World" class="article-share-link">分享</a>
+      <a data-url="https://vicni.xyz/2022/04/09/hello-world/" data-id="cl1reo18a0002at5cdixf20tq" data-title="Hello World" class="article-share-link">分享</a>
       
       
       
@@ -153,6 +278,18 @@
       <ul>
         
           <li>
+            <a href="/2022/04/09/proxychains/">proxychains</a>
+          </li>
+        
+          <li>
+            <a href="/2022/04/09/Debian-switch-desktop/">Debian switch desktop</a>
+          </li>
+        
+          <li>
+            <a href="/2022/04/09/Debian-Win10-grub-boot/">Debian &amp; Win10 grub boot</a>
+          </li>
+        
+          <li>
             <a href="/2022/04/09/hello-world/">Hello World</a>
           </li>
         
@@ -169,7 +306,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       
-      &copy; 2022 Neseo<br>
+      &copy; 2022 neseo<br>
       Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
