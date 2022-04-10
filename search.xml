@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Debian switch desktop</title>
-    <url>/2022/04/09/Debian-switch-desktop/</url>
-    <content><![CDATA[<p>debian10 切换默认桌面命令</p>
-<p>debian10 (安装多桌面)切换默认桌面命令:<br>update-alternatives –config x-session-manager<br>选择 要切换的桌面序号 重启即可</p>
+    <title>搬家</title>
+    <url>/2022/04/10/20220410/</url>
+    <content><![CDATA[<p>今天搬了一半。</p>
 ]]></content>
   </entry>
   <entry>
@@ -26,15 +25,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>proxychains</title>
-    <url>/2022/04/09/proxychains/</url>
-    <content><![CDATA[<p>首先安装proxychains：sudo apt install -y proxychains。</p>
-<p>然后编辑 &#x2F;etc&#x2F;proxychains.conf 文件，在最后的[ProxyList]一节中增加代理设置，例如：</p>
-<p>socks5 127.0.0.1 1080</p>
-<p>接下来，所有希望走代理的命令，前面增加proxychains即可，例如：<br>proxychains lynx <a href="https://youtube.com/">https://youtube.com</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Debian &amp; Win10 grub boot</title>
     <url>/2022/04/09/Debian-Win10-grub-boot/</url>
     <content><![CDATA[<p>Linux Debian11如何修改Grub2的开机启动顺序</p>
@@ -45,9 +35,19 @@
 ]]></content>
   </entry>
   <entry>
-    <title>搬家</title>
-    <url>/2022/04/10/%E6%90%AC%E5%AE%B6/</url>
-    <content><![CDATA[<p>今天搬了一半。</p>
+    <title>Debian switch desktop</title>
+    <url>/2022/04/09/Debian-switch-desktop/</url>
+    <content><![CDATA[<p>debian10 切换默认桌面命令</p>
+<p>debian10 (安装多桌面)切换默认桌面命令:<br>update-alternatives –config x-session-manager<br>选择 要切换的桌面序号 重启即可</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>proxychains</title>
+    <url>/2022/04/09/proxychains/</url>
+    <content><![CDATA[<p>首先安装proxychains：sudo apt install -y proxychains。</p>
+<p>然后编辑 &#x2F;etc&#x2F;proxychains.conf 文件，在最后的[ProxyList]一节中增加代理设置，例如：</p>
+<p>socks5 127.0.0.1 1080</p>
+<p>接下来，所有希望走代理的命令，前面增加proxychains即可，例如：<br>proxychains lynx <a href="https://youtube.com/">https://youtube.com</a></p>
 ]]></content>
   </entry>
 </search>
