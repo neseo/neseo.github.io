@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>5-1</title>
+    <url>/2022/05/02/5-1-1/</url>
+    <content><![CDATA[<img class="[class names] .&#x2F;1.jpg [width] [height] &quot;title text&quot; &quot;alt text&quot;">]]></content>
+  </entry>
+  <entry>
+    <title>5-1</title>
+    <url>/2022/05/02/5-1/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>搬家</title>
     <url>/2022/04/10/20220410/</url>
     <content><![CDATA[<p>今天搬了一半。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Debian &amp; Win10 grub boot</title>
+    <url>/2022/04/09/Debian-Win10-grub-boot/</url>
+    <content><![CDATA[<p>Linux Debian11如何修改Grub2的开机启动顺序</p>
+<p>Windows和Linux双系统，如何修改启动顺序。</p>
+<p>1、进入&#x2F;etc&#x2F;grub.d目录，将该目录下的“30_os-prober”文件改名为“##_os-prober”。##的取值为06～09之间的数字。</p>
+<p>2、执行sudo update-grub。</p>
+<p>注意是加sudo否则找不到该命令.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Debian switch desktop</title>
+    <url>/2022/04/09/Debian-switch-desktop/</url>
+    <content><![CDATA[<p>debian10 切换默认桌面命令</p>
+<p>debian10 (安装多桌面)切换默认桌面命令:<br>update-alternatives –config x-session-manager<br>选择 要切换的桌面序号 重启即可</p>
 ]]></content>
   </entry>
   <entry>
@@ -22,23 +49,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Debian &amp; Win10 grub boot</title>
-    <url>/2022/04/09/Debian-Win10-grub-boot/</url>
-    <content><![CDATA[<p>Linux Debian11如何修改Grub2的开机启动顺序</p>
-<p>Windows和Linux双系统，如何修改启动顺序。</p>
-<p>1、进入&#x2F;etc&#x2F;grub.d目录，将该目录下的“30_os-prober”文件改名为“##_os-prober”。##的取值为06～09之间的数字。</p>
-<p>2、执行sudo update-grub。</p>
-<p>注意是加sudo否则找不到该命令.</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Debian switch desktop</title>
-    <url>/2022/04/09/Debian-switch-desktop/</url>
-    <content><![CDATA[<p>debian10 切换默认桌面命令</p>
-<p>debian10 (安装多桌面)切换默认桌面命令:<br>update-alternatives –config x-session-manager<br>选择 要切换的桌面序号 重启即可</p>
 ]]></content>
   </entry>
   <entry>
