@@ -7,6 +7,12 @@
 ]]></content>
   </entry>
   <entry>
+    <title>5-1</title>
+    <url>/2022/05/02/51/</url>
+    <content><![CDATA[<p><img data-src="/./1.jpeg" alt="avatar"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>Debian &amp; Win10 grub boot</title>
     <url>/2022/04/09/Debian-Win10-grub-boot/</url>
     <content><![CDATA[<p>Linux Debian11如何修改Grub2的开机启动顺序</p>
@@ -48,12 +54,6 @@
 <p>然后编辑 &#x2F;etc&#x2F;proxychains.conf 文件，在最后的[ProxyList]一节中增加代理设置，例如：</p>
 <p>socks5 127.0.0.1 1080</p>
 <p>接下来，所有希望走代理的命令，前面增加proxychains即可，例如：<br>proxychains lynx <a href="https://youtube.com/">https://youtube.com</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>5-1</title>
-    <url>/2022/05/02/51/</url>
-    <content><![CDATA[<p><img data-src="/./1.jpeg" alt="avatar"></p>
 ]]></content>
   </entry>
 </search>
