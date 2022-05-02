@@ -3,13 +3,7 @@
   <entry>
     <title>51</title>
     <url>/2022/05/02/51/</url>
-    <content><![CDATA[<p><img data-src="/images/1.jpeg" alt="avatar"><br><img data-src="/images/2.jpeg" alt="avatar"><br><img data-src="/images/3.jpeg" alt="avatar"></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>搬家</title>
-    <url>/2022/04/10/20220410/</url>
-    <content><![CDATA[<p>今天搬了一半。</p>
+    <content><![CDATA[<p><img data-src="/images/1.jpeg" alt="avatar"><br><img data-src="/images/3.jpeg" alt="avatar"></p>
 ]]></content>
   </entry>
   <entry>
@@ -20,6 +14,12 @@
 <p>1、进入&#x2F;etc&#x2F;grub.d目录，将该目录下的“30_os-prober”文件改名为“##_os-prober”。##的取值为06～09之间的数字。</p>
 <p>2、执行sudo update-grub。</p>
 <p>注意是加sudo否则找不到该命令.</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>搬家</title>
+    <url>/2022/04/10/20220410/</url>
+    <content><![CDATA[<p>今天搬了一半。</p>
 ]]></content>
   </entry>
   <entry>
